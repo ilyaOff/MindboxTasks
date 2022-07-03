@@ -1,6 +1,6 @@
 
 /*
-ProductInCategory - таблица, содержащая пары продукт и категория, к которой он принадлежит
+ProductInCategory is a table containing pairs of product and the category to which it belongs
 */
 Select Product.name, Category.name 
 From Product 
