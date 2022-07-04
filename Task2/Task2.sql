@@ -5,7 +5,7 @@ ProductInCategory is a table containing pairs of product and the category to whi
 Select Product.name, Category.name 
 From Product 
 		Left Join (Category  Inner Join ProductInCategory   
-					On Category.f2 = ProductInCategory.CategoryID) 
-		ON Product.ID = ProductInCategory.ProductID
+					On Category.ID = ProductInCategory.CategoryID) 
+		On Product.ID = ProductInCategory.ProductID
 
 
